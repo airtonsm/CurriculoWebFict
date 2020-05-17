@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<title> Teste Formulário </title>
+	<link rel="stylesheet" href="css/dados.css">
+	<style>
+		h1{
+			color: blue;
+		}
+
+	</style>	
+</head>
+
+<body>
+
+<h1> Dados pessoais </h1>
+
+	<form mathod="get"  action="Dados.PHP">
+	<fieldset id="usuario"> <legend><b>Identificação</b></legend>
+		<p><label for="cNome">nome:</label> José Airton da Silva Morais</p>		
+		<p><label for="cEmail">e-mail<label>: airtonsmorais28@gmail.com</p>	
+		<p><label for="cNasc"> Data de nascimento:</label> 28/05/1993 </p>
+		
+	</fieldset>	
+	
+	<fieldset id="endereço"><legend><b>Endereço</b></legend>
+		<p><label for="cRua"> Logradouro: </label> Quadra 4 Conj. I  Arapoangas</p>
+		<p><label for="cNum">número:</label> 36</p>
+		<p><label for="cEstado"> Estado: Distrito Federal</label> 	
+			
+		
+		<p><label for="cCid">Cidade: Planaltina</label> 
+		
+		
+	</fieldset>
+	
+	<fieldset id="mensagem"><legend><b>Deixe uma mensagem</b></legend></label>
+		
+		
+		
+		<p><label for="cMsg">Mensagem:</label>
+		<textarea name="tMsg", id="cMsg" cols="45" rows="5" placeholder="Deixe sua mensagem aqui"></textarea>
+		<button name="button"> enviar </button>
+		</p>
+	</fieldset>	
+
+</form>
+
+ <script src="js/jquery-2.2.4.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

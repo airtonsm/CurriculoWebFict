@@ -1,0 +1,6 @@
+body {
+	min-height: 100vh; /*altura minima é como se fosse 100%*/
+	background-color: #F5F5F5; /*cor do fundo cinza*/
+	background-image: url('https://programaorienta.com.br/wp-content/uploads/2017/10/livros_publicidade-progaganda-1-1280x720.jpg');
+	/*background-image: url('../img/desktop.jpg');*/
+}

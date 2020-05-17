@@ -1,0 +1,5 @@
+body {
+	min-height: 100vh; /*altura minima é como se fosse 100%*/
+	background-color: #F5F5F5; /*cor do fundo cinza*/
+	background-image: url('https://blog.egestor.com.br/wp-content/uploads/xsharon-mccutcheon-532782-unsplash-1160x770.jpg.pagespeed.ic.xJS7VQsG-U@2x.jpg');
+}
